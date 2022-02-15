@@ -46,13 +46,6 @@
 }
 
 @media all and (min-width: 991px) {
-	/* General Styles */
-	i {
-		font-size: 40px;
-	}
-	.heading h1 {
-		font-size: 35px;
-	}
 	.nav-border-top {
 		border-top: unset;
 	}
