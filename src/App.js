@@ -1,12 +1,14 @@
 import AboutMe from "./components/AboutMe";
-import Header from "./components/Header";
+import Nav from "./components/Nav";
 import "./reset.css";
 import "./styles.css";
 
 function App() {
 	return (
 		<>
-			<Header />
+			<header>
+				<Nav />
+			</header>
 			<main>
 				<AboutMe />
 			</main>
