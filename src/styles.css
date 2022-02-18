@@ -128,8 +128,8 @@ p {
 	h6 {
 		font-size: 25px;
 	}
-	/* .wrapper {
-		padding-right: 10rem;
-		padding-left: 10rem;
-	} */
+	.wrapper {
+		padding-right: 15rem;
+		padding-left: 15rem;
+	}
 }
