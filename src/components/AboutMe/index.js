@@ -26,7 +26,7 @@ const AboutMe = () => {
 					<div class="centre">
 						<img
 							class="profile-img"
-							src="./images/profile-img.png"
+							src="./assets/images/profile-img.png"
 							alt="Projects Author (Darion Richards)"
 						/>
 						<h2>Darion Richards</h2>
