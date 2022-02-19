@@ -2,13 +2,13 @@ import "./GroupProjects.css";
 
 export const GroupProjects = () => {
 	return (
-		<section id="projects" class="group-project-section wrapper">
-			<section class="heading">
-				<h1 class="end">GROUP PROJECTS</h1>
+		<section id="projects" className="group-project-section wrapper">
+			<section className="heading">
+				<h1 className="end">GROUP PROJECTS</h1>
 			</section>
 
-			<section class="main-project">
-				<section class="main-project-card">
+			<section className="main-project">
+				<section className="main-project-card">
 					<a href="https://darionrichards.github.io/readers-revival/">
 						<img
 							src="./assets/images/readers-revival-screenshot.png"
@@ -18,7 +18,7 @@ export const GroupProjects = () => {
 						/>
 					</a>
 				</section>
-				<section class="main-project-card">
+				<section className="main-project-card">
 					<a href="https://darionrichards.github.io/readers-revival/">
 						<img
 							src="./assets/images/fitness-app.png"
