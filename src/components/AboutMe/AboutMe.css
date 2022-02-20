@@ -25,17 +25,37 @@
 	display: flex;
 }
 
+.tilt-element {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4rem 1rem;
+	background: #e9ecf3;
+	border-radius: 1rem;
+	box-shadow: 0 0 15px rgb(97, 97, 97);
+	gap: 1rem;
+	width: min-content;
+	height: fit-content;
+
+	transform-style: preserve-3d;
+}
+
+.inner-tilt-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+
+	transform: translateZ(100px);
+}
+
 .profile-card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	padding: 2rem 1rem 4rem;
-	background: #e9ecf3;
-	border-radius: 1rem;
-	box-shadow: 0 0 15px rgb(97, 97, 97);
-	width: 15rem;
-	height: 30rem;
 }
 
 .profile-card-skills i,
@@ -107,14 +127,14 @@
 	}
 	.profile-card {
 		width: 20rem;
-		margin-left: 2rem;
+		/* margin-left: 2rem; */
 	}
 	.profile-card h2 {
 		font-size: 30px;
 	}
 }
 
-@media all and (min-width: 769px) {
+@media all and (min-width: 1050px) {
 	.about-me-section {
 		flex-direction: row;
 	}
@@ -127,10 +147,12 @@
 }
 
 @media all and (min-width: 1600px) {
+	.tilt-element {
+		padding: 5rem 2rem;
+	}
 	.profile-card {
-		width: 125rem;
-		height: 35rem;
-		margin-left: 7rem;
+		width: fit-content;
+		/* margin-left: 7rem; */
 	}
 	.profile-card-skills i,
 	.profile-card-links i {
@@ -139,9 +161,8 @@
 }
 
 @media all and (min-width: 2000px) {
-	.profile-card {
-		width: 100rem;
-		/* margin-left: 20rem; */
+	.tilt-element {
+		padding: 5rem 3rem;
 	}
 	.profile-card h2 {
 		font-size: 40px;
