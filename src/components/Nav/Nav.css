@@ -1,7 +1,7 @@
 /* Navigation Styles */
 
 .navbar {
-	padding: 1.5rem 0.3rem;
+	padding: 1.5rem 0;
 	box-shadow: 0px 0 10px 5px;
 	letter-spacing: 0.2rem;
 	font-weight: 700;
@@ -25,6 +25,7 @@
 }
 
 .container-fluid {
+	padding: 0 3rem;
 	gap: 1rem;
 }
 
@@ -49,9 +50,8 @@
 	.nav-border-top {
 		border-top: unset;
 	}
-	/* Navigation Bar Styling */
 	.container-fluid {
-		gap: 0.5rem;
+		padding: 0 5rem;
 	}
 	.nav-border-right {
 		padding-right: 1rem;
@@ -59,5 +59,17 @@
 	}
 	.navbar-nav {
 		padding: unset;
+	}
+}
+
+@media all and (min-width: 1600px) {
+	.container-fluid {
+		padding: 0 7rem;
+	}
+}
+
+@media all and (min-width: 2000px) {
+	.container-fluid {
+		padding: 0 15rem;
 	}
 }
