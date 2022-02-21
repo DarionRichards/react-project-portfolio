@@ -1,21 +1,14 @@
-import AboutMe from "./components/AboutMe";
-import {GroupProjects} from "./components/GroupProjects";
-import {IndividualProjectsSection} from "./components/IndividualProjectsSection";
-import Nav from "./components/Nav";
-import "./reset.css";
-import "./styles.css";
+import {Route, Routes} from "react-router-dom";
+import {ContactMe} from "./components/ContactMe";
+import {Home} from "./components/Home";
 
 function App() {
 	return (
 		<>
-			<header>
-				<Nav />
-			</header>
-			<main>
-				<AboutMe />
-				<GroupProjects />
-				<IndividualProjectsSection />
-			</main>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/contact-me" element={<ContactMe />} />
+			</Routes>
 		</>
 	);
 }
