@@ -1,8 +1,7 @@
 .project-card {
 	display: flex;
 	flex-direction: column;
-	width: 20rem;
-	height: unset;
+	height: 100%;
 	border-top-left-radius: 1rem;
 	border-top-right-radius: 1rem;
 	border-bottom-left-radius: 1rem;
@@ -75,4 +74,16 @@
 	color: #fff;
 	text-decoration: none;
 	transform: scale(1.1);
+}
+
+@media all and (min-width: 425px) {
+	.project-card {
+		width: 20rem;
+	}
+}
+
+@media all and (min-width: 1400px) {
+	.project-card {
+		width: 24rem;
+	}
 }
