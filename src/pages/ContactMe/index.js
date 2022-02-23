@@ -13,7 +13,7 @@ export const ContactMe = () => {
 				<section className="wrapper">
 					<section className="contact-container">
 						<div className="contact-me-section">
-							<h2>ContactMe</h2>
+							<h2>Contact Me</h2>
 							<h6>Feel free to contact me at any time.</h6>
 							<ContactForm />
 						</div>
