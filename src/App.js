@@ -1,6 +1,8 @@
 import {Route, Routes} from "react-router-dom";
-import {ContactMe} from "./components/ContactMe";
-import {Home} from "./components/Home";
+import {ContactMe} from "./pages/ContactMe";
+import {Home} from "./pages/Home";
+import "./reset.css";
+import "./styles.css";
 
 function App() {
 	return (

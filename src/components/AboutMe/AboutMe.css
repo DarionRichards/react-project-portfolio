@@ -58,6 +58,11 @@
 	justify-content: space-between;
 }
 
+.profile-card-icon {
+	width: 50px;
+	margin: 0.3rem;
+}
+
 .profile-card-skills i,
 .profile-card-links i,
 .profile-card-links img {

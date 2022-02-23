@@ -83,43 +83,71 @@ const AboutMe = () => {
 									animateOnce={true}
 									animateIn="animate__bounceInRight"
 								>
-									<i className="fab fa-html5 gradient"></i>
+									<img
+										className="profile-card-icon"
+										src="./assets/images/icons/html-5.svg"
+										alt="html-icon"
+									/>
 								</AnimationOnScroll>
 								<AnimationOnScroll
 									animateOnce={true}
 									animateIn="animate__bounceInRight"
 									delay={1000}
 								>
-									<i className="fab fa-css3-alt"></i>
+									<img
+										className="profile-card-icon"
+										src="./assets/images/icons/css-3.svg"
+										alt="css-icon"
+									/>
 								</AnimationOnScroll>
 								<AnimationOnScroll
 									animateOnce={true}
 									animateIn="animate__bounceInRight"
 									delay={1750}
 								>
-									<i className="fab fa-js"></i>
+									<img
+										className="profile-card-icon"
+										src="./assets/images/icons/javascript.svg"
+										alt="javscript-icon"
+									/>
 								</AnimationOnScroll>
 								<AnimationOnScroll
 									animateOnce={true}
 									animateIn="animate__bounceInRight"
 									delay={2500}
 								>
-									<i className="fab fa-node"></i>
+									<img
+										className="profile-card-icon"
+										src="./assets/images/icons/nodejs.svg"
+										alt="nodejs-icon"
+									/>
 								</AnimationOnScroll>
 								<AnimationOnScroll
 									animateOnce={true}
 									animateIn="animate__bounceInRight"
 									delay={3250}
 								>
-									<i className="fab fa-react"></i>
+									<img
+										className="profile-card-icon"
+										src="./assets/images/icons/react.svg"
+										alt="react-icon"
+									/>
 								</AnimationOnScroll>
 							</div>
 							<div className="profile-card-links">
 								<a href="https://github.com/DarionRichards">
-									<i className="fab fa-github"></i>
+									<img
+										className="profile-card-icon"
+										src="./assets/images/icons/github-blue.svg"
+										alt="github-icon"
+									/>
 								</a>
 								<a href="https://www.linkedin.com/in/darionrichards/">
-									<i className="fab fa-linkedin"></i>
+									<img
+										className="profile-card-icon"
+										src="./assets/images/icons/linkedin.svg"
+										alt="linkedin-icon"
+									/>
 								</a>
 							</div>
 						</section>
