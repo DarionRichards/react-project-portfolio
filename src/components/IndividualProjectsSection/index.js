@@ -100,7 +100,10 @@ export const IndividualProjectsSection = () => {
 	});
 
 	return (
-		<section id="projects" className="individual-project-section wrapper">
+		<section
+			id="individual-projects"
+			className="individual-project-section wrapper"
+		>
 			<section className="heading">
 				<h1 className="start">INDIVIDUAL PROJECTS</h1>
 			</section>

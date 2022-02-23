@@ -23,6 +23,10 @@ h6 {
 	font-size: 100%;
 }
 
+p {
+	margin-bottom: unset;
+}
+
 input,
 select,
 option,

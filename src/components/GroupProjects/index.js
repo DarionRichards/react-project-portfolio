@@ -2,7 +2,7 @@ import "./GroupProjects.css";
 
 export const GroupProjects = () => {
 	return (
-		<section id="projects" className="group-project-section wrapper">
+		<section id="group-projects" className="group-project-section wrapper">
 			<section className="heading">
 				<h1 className="end">GROUP PROJECTS</h1>
 			</section>

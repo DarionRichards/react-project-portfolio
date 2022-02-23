@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
@@ -27,28 +28,20 @@ const Nav = () => {
 							<a
 								className="nav-link active text-white"
 								aria-current="page"
-								href="about-me"
+								href="#about-me"
 							>
 								ABOUT ME
 							</a>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link active text-white"
-								aria-current="page"
-								href="project"
-							>
+							<Link to={"/"} className="nav-link active text-white">
 								PROJECTS
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link active text-white"
-								aria-current="page"
-								href="contact-me"
-							>
+							<Link to={"/contact-me"} className="nav-link active text-white">
 								CONTACT ME
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
