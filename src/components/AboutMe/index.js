@@ -2,7 +2,7 @@ import {AnimationOnScroll} from "react-animation-on-scroll";
 import Tilt from "react-parallax-tilt";
 import "./AboutMe.css";
 
-const AboutMe = () => {
+export const AboutMe = () => {
 	return (
 		<>
 			<section id="about-me" className="about-me-section wrapper">
@@ -157,5 +157,3 @@ const AboutMe = () => {
 		</>
 	);
 };
-
-export default AboutMe;

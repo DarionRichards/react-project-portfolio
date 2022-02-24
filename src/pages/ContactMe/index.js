@@ -1,6 +1,6 @@
 import Media from "react-media";
 import {ContactForm} from "../../components/ContactMeForm";
-import Nav from "../../components/Nav";
+import {Nav} from "../../components/Nav";
 import "./ContactMe.css";
 
 export const ContactMe = () => {

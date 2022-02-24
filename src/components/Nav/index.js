@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import "./Nav.css";
 
-const Nav = () => {
+export const Nav = () => {
 	return (
 		<nav className="navbar navbar-expand-lg nav-background navbar-dark">
 			<div className="container-fluid">
@@ -49,5 +49,3 @@ const Nav = () => {
 		</nav>
 	);
 };
-
-export default Nav;
