@@ -59,7 +59,7 @@
 }
 
 .profile-card-icon {
-	width: 50px;
+	width: 35px;
 	margin: 0.3rem;
 }
 
@@ -133,6 +133,10 @@
 	.profile-card {
 		width: 20rem;
 		/* margin-left: 2rem; */
+	}
+	.profile-card-icon {
+		width: 50px;
+		margin: 0.3rem;
 	}
 	.profile-card h2 {
 		font-size: 30px;

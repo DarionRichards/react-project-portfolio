@@ -25,7 +25,7 @@
 }
 
 .container-fluid {
-	padding: 0 3rem;
+	padding: 0 2rem;
 	gap: 1rem;
 }
 
@@ -44,6 +44,12 @@
 
 .nav-link:hover {
 	color: var(--clr-hover) !important;
+}
+
+@media all and (min-width: 425px) {
+	.container-fluid {
+		padding: 0 3rem;
+	}
 }
 
 @media all and (min-width: 991px) {
