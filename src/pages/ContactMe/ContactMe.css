@@ -39,6 +39,7 @@
 .contact-form-container textarea {
 	width: 100%;
 	height: 120px;
+	min-height: 120px;
 	padding: 1rem;
 }
 
@@ -141,12 +142,6 @@
 @media all and (min-width: 1250px) {
 	.contact-info {
 		width: 150%;
-	}
-}
-
-@media all and (min-width: 1600px) {
-	.contact-container {
-		height: 666px;
 	}
 }
 
