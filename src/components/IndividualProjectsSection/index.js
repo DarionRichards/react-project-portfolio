@@ -1,9 +1,9 @@
 import {IndividualProjectCard} from "../IndividualProjectCard";
 import "./IndividualProjectsSection.css";
-import {projectsArray} from "./projectData";
+import {individualProjectData} from "../../data/individualProjectData";
 
 export const IndividualProjectsSection = () => {
-	const project = projectsArray.map((project, i) => {
+	const project = individualProjectData.map((project, i) => {
 		return (
 			<IndividualProjectCard
 				key={i}
