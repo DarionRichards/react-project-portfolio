@@ -15,7 +15,6 @@ export const AboutMeSection = () => {
 					animateOnce={true}
 					animateIn="animate__lightSpeedInLeft"
 					duration={1.8}
-					delay={1250}
 				>
 					<p className="about-text">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus

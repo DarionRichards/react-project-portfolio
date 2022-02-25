@@ -62,17 +62,17 @@ export const ContactMe = () => {
 									<div className="contact-links">
 										<img
 											className="contact-link-icon"
-											src="./assets/images/icons/github.svg"
+											src="./assets/icons/github.svg"
 											alt="github-icon"
 										/>
 										<img
 											className="contact-link-icon"
-											src="./assets/images/icons/linkedin-black.svg"
+											src="./assets/icons/linkedin-black.svg"
 											alt="linkedin-icon"
 										/>
 										<img
 											className="contact-link-icon"
-											src="./assets/images/icons/github.svg"
+											src="./assets/icons/github.svg"
 											alt="github-icon"
 										/>
 									</div>

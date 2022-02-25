@@ -24,11 +24,34 @@ export const ProfileCard = () => {
 				<AnimationOnScroll
 					animateOnce={true}
 					animateIn="animate__bounceInRight"
+					delay={250}
 				>
 					<img
 						className="profile-card-icon"
-						src="./assets/images/icons/html-5.svg"
+						src="./assets/icons/html-5.svg"
 						alt="html-icon"
+					/>
+				</AnimationOnScroll>
+				<AnimationOnScroll
+					animateOnce={true}
+					animateIn="animate__bounceInRight"
+					delay={500}
+				>
+					<img
+						className="profile-card-icon"
+						src="./assets/icons/css-3.svg"
+						alt="css-icon"
+					/>
+				</AnimationOnScroll>
+				<AnimationOnScroll
+					animateOnce={true}
+					animateIn="animate__bounceInRight"
+					delay={750}
+				>
+					<img
+						className="profile-card-icon"
+						src="./assets/icons/javascript.svg"
+						alt="javscript-icon"
 					/>
 				</AnimationOnScroll>
 				<AnimationOnScroll
@@ -38,40 +61,18 @@ export const ProfileCard = () => {
 				>
 					<img
 						className="profile-card-icon"
-						src="./assets/images/icons/css-3.svg"
-						alt="css-icon"
-					/>
-				</AnimationOnScroll>
-				<AnimationOnScroll
-					animateOnce={true}
-					animateIn="animate__bounceInRight"
-					delay={1750}
-				>
-					<img
-						className="profile-card-icon"
-						src="./assets/images/icons/javascript.svg"
-						alt="javscript-icon"
-					/>
-				</AnimationOnScroll>
-				<AnimationOnScroll
-					animateOnce={true}
-					animateIn="animate__bounceInRight"
-					delay={2500}
-				>
-					<img
-						className="profile-card-icon"
-						src="./assets/images/icons/nodejs.svg"
+						src="./assets/icons/nodejs.svg"
 						alt="nodejs-icon"
 					/>
 				</AnimationOnScroll>
 				<AnimationOnScroll
 					animateOnce={true}
 					animateIn="animate__bounceInRight"
-					delay={3250}
+					delay={1250}
 				>
 					<img
 						className="profile-card-icon"
-						src="./assets/images/icons/react.svg"
+						src="./assets/icons/react.svg"
 						alt="react-icon"
 					/>
 				</AnimationOnScroll>
@@ -80,14 +81,14 @@ export const ProfileCard = () => {
 				<a href="https://github.com/DarionRichards">
 					<img
 						className="profile-card-icon"
-						src="./assets/images/icons/github-blue.svg"
+						src="./assets/icons/github-blue.svg"
 						alt="github-icon"
 					/>
 				</a>
 				<a href="https://www.linkedin.com/in/darionrichards/">
 					<img
 						className="profile-card-icon"
-						src="./assets/images/icons/linkedin.svg"
+						src="./assets/icons/linkedin.svg"
 						alt="linkedin-icon"
 					/>
 				</a>
