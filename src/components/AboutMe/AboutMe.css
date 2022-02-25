@@ -4,6 +4,23 @@
 	margin-bottom: 1rem;
 }
 
+.welcome-section {
+	margin-bottom: 4rem;
+}
+
+.welcome-section h1 {
+	letter-spacing: 2px;
+	padding-bottom: unset;
+	border-bottom: unset;
+	font-size: 30px;
+	font-weight: 400 !important;
+}
+
+.welcome-section span {
+	color: white;
+	font-weight: 600;
+}
+
 .about-me-section {
 	display: flex;
 	flex-direction: column-reverse;
@@ -19,6 +36,10 @@
 		rgba(76, 201, 240, 1) 100%
 	);
 	width: 100%;
+}
+
+.about-me-section .heading {
+	margin-bottom: 2rem;
 }
 
 .about-text {
