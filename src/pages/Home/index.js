@@ -2,6 +2,7 @@ import {AboutMe} from "../../components/AboutMe";
 import {GroupProjects} from "../../components/GroupProjects";
 import {IndividualProjectsSection} from "../../components/IndividualProjectsSection";
 import {Nav} from "../../components/Nav";
+import {TechSkills} from "../../components/TechSkills";
 
 export const Home = () => {
 	return (
@@ -11,6 +12,7 @@ export const Home = () => {
 			</header>
 			<main>
 				<AboutMe />
+				<TechSkills />
 				<GroupProjects />
 				<IndividualProjectsSection />
 			</main>
