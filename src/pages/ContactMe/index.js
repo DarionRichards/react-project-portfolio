@@ -29,7 +29,7 @@ export const ContactMe = () => {
 											>
 												<img
 													className="contact-link-icon"
-													src="./assets/images/icons/location.svg"
+													src="./assets/icons/location.svg"
 													alt="github-icon"
 												/>
 												<p>Birmingham, UK</p>
@@ -42,7 +42,7 @@ export const ContactMe = () => {
 											>
 												<img
 													className="contact-link-icon"
-													src="./assets/images/icons/email.svg"
+													src="./assets/icons/email.svg"
 													alt="github-icon"
 												/>
 												<p>darionrichards@outlook.com</p>
@@ -52,7 +52,7 @@ export const ContactMe = () => {
 											>
 												<img
 													className="contact-link-icon"
-													src="./assets/images/icons/phone.svg"
+													src="./assets/icons/phone.svg"
 													alt="github-icon"
 												/>
 												<p>07402 323 872</p>
