@@ -10,15 +10,12 @@
 	margin: 0.3rem;
 }
 
-.profile-card-skills i,
-.profile-card-links i,
 .profile-card-links img {
 	font-size: 35px;
 	margin: 0.5rem;
 	transition: all 0.2s ease-in-out;
 }
 
-.profile-card-skills i:hover,
 .profile-card-links img:hover {
 	transform: scale(1.5);
 }
@@ -60,26 +57,16 @@
 	margin-right: 0.5rem;
 }
 
-.profile-card-skills {
+.profile-card-links {
 	display: flex;
 	flex-direction: row;
 	margin: 0.5rem;
-}
-
-.profile-card-links {
-	display: inline-flex;
-	font-size: 40px;
-	color: black;
 }
 
 @media all and (min-width: 650px) {
 	.profile-card-skills i,
 	.profile-card-links i {
 		font-size: 40px;
-	}
-	.profile-card {
-		width: 20rem;
-		/* margin-left: 2rem; */
 	}
 	.profile-card-icon {
 		width: 50px;
@@ -104,11 +91,5 @@
 	.profile-card-skills i,
 	.profile-card-links i {
 		font-size: 50px;
-	}
-}
-
-@media all and (min-width: 2000px) {
-	.profile-card h2 {
-		font-size: 40px;
 	}
 }

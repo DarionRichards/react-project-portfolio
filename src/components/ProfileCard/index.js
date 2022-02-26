@@ -20,78 +20,59 @@ export const ProfileCard = () => {
 					<h6>Birmingham, UK</h6>
 				</div>
 			</div>
-			<div className="profile-card-skills centre">
+
+			<div className="profile-card-links">
 				<AnimationOnScroll
 					animateOnce={true}
 					animateIn="animate__bounceInRight"
 					delay={250}
 				>
-					<img
-						className="profile-card-icon"
-						src="./assets/icons/html-5.svg"
-						alt="html-icon"
-					/>
+					<a
+						href="https://github.com/DarionRichards"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="profile-card-icon"
+							src="./assets/icons/github-blue.svg"
+							alt="github-icon"
+						/>
+					</a>
 				</AnimationOnScroll>
 				<AnimationOnScroll
 					animateOnce={true}
 					animateIn="animate__bounceInRight"
 					delay={500}
 				>
-					<img
-						className="profile-card-icon"
-						src="./assets/icons/css-3.svg"
-						alt="css-icon"
-					/>
+					<a
+						href="https://www.linkedin.com/in/darionrichards/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="profile-card-icon"
+							src="./assets/icons/linkedin.svg"
+							alt="linkedin-icon"
+						/>
+					</a>
 				</AnimationOnScroll>
 				<AnimationOnScroll
 					animateOnce={true}
 					animateIn="animate__bounceInRight"
 					delay={750}
 				>
-					<img
-						className="profile-card-icon"
-						src="./assets/icons/javascript.svg"
-						alt="javscript-icon"
-					/>
+					<a
+						href="https://docs.google.com/document/d/1JayiuboL3Ie47uJichXcj69pYMMK5ORI/edit?usp=sharing&ouid=103570595265825673215&rtpof=true&sd=true"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							className="profile-card-icon"
+							src="./assets/icons/cv.svg"
+							alt="cv-icon"
+						/>
+					</a>
 				</AnimationOnScroll>
-				<AnimationOnScroll
-					animateOnce={true}
-					animateIn="animate__bounceInRight"
-					delay={1000}
-				>
-					<img
-						className="profile-card-icon"
-						src="./assets/icons/nodejs.svg"
-						alt="nodejs-icon"
-					/>
-				</AnimationOnScroll>
-				<AnimationOnScroll
-					animateOnce={true}
-					animateIn="animate__bounceInRight"
-					delay={1250}
-				>
-					<img
-						className="profile-card-icon"
-						src="./assets/icons/react.svg"
-						alt="react-icon"
-					/>
-				</AnimationOnScroll>
-			</div>
-			<div className="profile-card-links">
-				<a href="https://github.com/DarionRichards">
-					<img
-						className="profile-card-icon"
-						src="./assets/icons/github-blue.svg"
-						alt="github-icon"
-					/>
-				</a>
-				<a href="https://www.linkedin.com/in/darionrichards/">
-					<img
-						className="profile-card-icon"
-						src="./assets/icons/linkedin.svg"
-						alt="linkedin-icon"
-					/>
-				</a>
 			</div>
 		</section>
 	);
