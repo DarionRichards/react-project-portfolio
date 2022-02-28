@@ -3,6 +3,13 @@ import {ContactForm} from "../../components/ContactMeForm";
 import {Nav} from "../../components/Nav";
 import "./ContactMe.css";
 
+import locationIcon from "../../assets/icons/location.svg";
+import emailIcon from "../../assets/icons/email.svg";
+import phoneIcon from "../../assets/icons/phone.svg";
+import gitHubIcon from "../../assets/icons/github.svg";
+import linkedinIcon from "../../assets/icons/linkedin.svg";
+import cvIcon from "../../assets/icons/cv.svg";
+
 export const ContactMe = () => {
 	return (
 		<>
@@ -29,7 +36,7 @@ export const ContactMe = () => {
 											>
 												<img
 													className="contact-link-icon"
-													src="./assets/icons/location.svg"
+													src={locationIcon}
 													alt="github-icon"
 												/>
 												<p>Birmingham, UK</p>
@@ -42,7 +49,7 @@ export const ContactMe = () => {
 											>
 												<img
 													className="contact-link-icon"
-													src="./assets/icons/email.svg"
+													src={emailIcon}
 													alt="github-icon"
 												/>
 												<p>darionrichards@outlook.com</p>
@@ -52,7 +59,7 @@ export const ContactMe = () => {
 											>
 												<img
 													className="contact-link-icon"
-													src="./assets/icons/phone.svg"
+													src={phoneIcon}
 													alt="github-icon"
 												/>
 												<p>07402 323 872</p>
@@ -62,18 +69,18 @@ export const ContactMe = () => {
 									<div className="contact-links">
 										<img
 											className="contact-link-icon"
-											src="./assets/icons/github.svg"
+											src={gitHubIcon}
 											alt="github-icon"
 										/>
 										<img
 											className="contact-link-icon"
-											src="./assets/icons/linkedin-black.svg"
+											src={linkedinIcon}
 											alt="linkedin-icon"
 										/>
 										<img
 											className="contact-link-icon"
-											src="./assets/icons/github.svg"
-											alt="github-icon"
+											src={cvIcon}
+											alt="cv-icon"
 										/>
 									</div>
 								</div>

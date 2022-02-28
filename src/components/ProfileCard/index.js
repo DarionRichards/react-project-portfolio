@@ -1,13 +1,18 @@
 import {AnimationOnScroll} from "react-animation-on-scroll";
 import "./ProfileCard.css";
 
+import profileImg from "../../assets/images/profile-img.png";
+import gitHubBlue from "../../assets/icons/github-blue.svg";
+import linkedIn from "../../assets/icons/linkedin.svg";
+import cvIcon from "../../assets/icons/cv.svg";
+
 export const ProfileCard = () => {
 	return (
 		<section className="profile-card inner-tilt-element">
 			<div className="centre">
 				<img
 					className="profile-img"
-					src="./assets/images/profile-img.png"
+					src={profileImg}
 					alt="Projects Author (Darion Richards)"
 				/>
 				<h2>Darion Richards</h2>
@@ -34,7 +39,7 @@ export const ProfileCard = () => {
 					>
 						<img
 							className="profile-card-icon"
-							src="./assets/icons/github-blue.svg"
+							src={gitHubBlue}
 							alt="github-icon"
 						/>
 					</a>
@@ -51,7 +56,7 @@ export const ProfileCard = () => {
 					>
 						<img
 							className="profile-card-icon"
-							src="./assets/icons/linkedin.svg"
+							src={linkedIn}
 							alt="linkedin-icon"
 						/>
 					</a>
@@ -66,11 +71,7 @@ export const ProfileCard = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img
-							className="profile-card-icon"
-							src="./assets/icons/cv.svg"
-							alt="cv-icon"
-						/>
+						<img className="profile-card-icon" src={cvIcon} alt="cv-icon" />
 					</a>
 				</AnimationOnScroll>
 			</div>

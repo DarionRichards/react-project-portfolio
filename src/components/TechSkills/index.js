@@ -1,5 +1,22 @@
 import "./TechSkills.css";
 
+import htmlIcon from "../../assets/icons/html-5.svg";
+import cssIcon from "../../assets/icons/css-3.svg";
+import jsIcon from "../../assets/icons/javascript.svg";
+import reactIcon from "../../assets/icons/react.svg";
+import reactRouterIcon from "../../assets/icons/react-router.svg";
+import bootstrapIcon from "../../assets/icons/bootstrap.svg";
+import handlebarsIcon from "../../assets/icons/handlebars.svg";
+import materialuiIcon from "../../assets/icons/material-ui.svg";
+import nodejsIcon from "../../assets/icons/nodejs.svg";
+import expressIcon from "../../assets/icons/expressjs.svg";
+import graphqlIcon from "../../assets/icons/graphql.svg";
+import apolloIcon from "../../assets/icons/apollo.svg";
+import githubIcon from "../../assets/icons/github.svg";
+import mysqlIcon from "../../assets/icons/mysql.svg";
+import mongodbIcon from "../../assets/icons/mongodb.svg";
+import herokuIcon from "../../assets/icons/heroku.svg";
+
 export const TechSkills = () => {
 	return (
 		<section className="tech-skills-section wrapper">
@@ -14,7 +31,7 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img src="./assets/icons/html-5.svg" alt="html icon" />
+								<img src={htmlIcon} alt="html icon" />
 								HTML
 							</a>
 							<a
@@ -22,7 +39,7 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img src="./assets/icons/css-3.svg" alt="css icon" />
+								<img src={cssIcon} alt="css icon" />
 								CSS
 							</a>
 							<a
@@ -30,14 +47,11 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img
-									src="./assets/icons/javascript.svg"
-									alt="javascript icon"
-								/>
+								<img src={jsIcon} alt="javascript icon" />
 								JavaScript
 							</a>
 							<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-								<img src="./assets/icons/react.svg" alt="react icon" />
+								<img src={reactIcon} alt="react icon" />
 								ReactJS
 							</a>
 							<a
@@ -45,10 +59,7 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img
-									src="./assets/icons/react-router.svg"
-									alt="react-router icon"
-								/>
+								<img src={reactRouterIcon} alt="react-router icon" />
 								React Router
 							</a>
 							<a
@@ -56,7 +67,7 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img src="./assets/icons/bootstrap.svg" alt="Bootstrap icon" />
+								<img src={bootstrapIcon} alt="Bootstrap icon" />
 								Bootstrap
 							</a>
 							<a
@@ -64,17 +75,11 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img
-									src="./assets/icons/handlebars.svg"
-									alt="Handlebars icon"
-								/>
+								<img src={handlebarsIcon} alt="Handlebars icon" />
 								Handlebars.js
 							</a>
 							<a href="https://mui.com/" target="_blank" rel="noreferrer">
-								<img
-									src="./assets/icons/material-ui.svg"
-									alt="material-ui icon"
-								/>
+								<img src={materialuiIcon} alt="material-ui icon" />
 								Material UI
 							</a>
 						</div>
@@ -86,11 +91,11 @@ export const TechSkills = () => {
 						<h2 className="skill-card-title  heading centre">Back-End</h2>
 						<div className="skills-section">
 							<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-								<img src="./assets/icons/nodejs.svg" alt="NodeJS icon" />
+								<img src={nodejsIcon} alt="NodeJS icon" />
 								NodeJS
 							</a>
 							<a href="https://expressjs.com/" target="_blank" rel="noreferrer">
-								<img src="./assets/icons/expressjs.svg" alt="ExpressJS icon" />
+								<img src={expressIcon} alt="ExpressJS icon" />
 								ExpressJS
 							</a>
 						</div>
@@ -99,7 +104,7 @@ export const TechSkills = () => {
 						<h2 className="skill-card-title heading centre">Query Languages</h2>
 						<div className="skills-section">
 							<a href="https://graphql.org/" target="_blank" rel="noreferrer">
-								<img src="./assets/icons/graphql.svg" alt="GraphQL icon" />
+								<img src={graphqlIcon} alt="GraphQL icon" />
 								GraphQL
 							</a>
 							<a
@@ -107,7 +112,7 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img src="./assets/icons/apollo.svg" alt="ApolloClient icon" />
+								<img src={apolloIcon} alt="ApolloClient icon" />
 								Apollo Client
 							</a>
 						</div>
@@ -116,7 +121,7 @@ export const TechSkills = () => {
 						<h2 className="skill-card-title heading centre">Version Control</h2>
 						<div className="skills-section">
 							<a href="https://github.com" target="_blank" rel="noreferrer">
-								<img src="./assets/icons/github.svg" alt="GitHub icon" />
+								<img src={githubIcon} alt="GitHub icon" />
 								GitHub
 							</a>
 						</div>
@@ -127,7 +132,7 @@ export const TechSkills = () => {
 						<h2 className="skill-card-title heading centre">Database</h2>
 						<div className="skills-section">
 							<a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-								<img src="./assets/icons/mysql.svg" alt="MySQL icon" />
+								<img src={mysqlIcon} alt="MySQL icon" />
 								MySQL
 							</a>
 							<a
@@ -135,7 +140,7 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img src="./assets/icons/mongodb.svg" alt="MongoDB icon" />
+								<img src={mongodbIcon} alt="MongoDB icon" />
 								MongoDB
 							</a>
 						</div>
@@ -147,7 +152,7 @@ export const TechSkills = () => {
 						</h2>
 						<div className="skills-section">
 							<a href="https://www.heroku.com" target="_blank" rel="noreferrer">
-								<img src="./assets/icons/heroku.svg" alt="Heroku icon" />
+								<img src={herokuIcon} alt="Heroku icon" />
 								Heroku
 							</a>
 							<a
@@ -155,7 +160,7 @@ export const TechSkills = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img src="./assets/icons/github.svg" alt="GitHub icon" />
+								<img src={githubIcon} alt="GitHub icon" />
 								GitHub Pages
 							</a>
 						</div>
