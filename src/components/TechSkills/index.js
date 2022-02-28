@@ -8,6 +8,7 @@ import {queryLanguageSkillsData} from "../../data/skills/queryLanguageSkillsData
 import {versionControlSkillsData} from "../../data/skills/versionControlSkillsData";
 import {databaseSkillsData} from "../../data/skills/databaseSkillsData";
 import {hostingPlatformSkillsData} from "../../data/skills/hostingPlatformSkillsData";
+import {AnimationOnScroll} from "react-animation-on-scroll";
 
 export const TechSkills = () => {
 	const frontEndSkills = frontEndSkillsData.map((each) => {
@@ -51,21 +52,50 @@ export const TechSkills = () => {
 			<h1 className="heading">TECH SKILLS</h1>
 			<section className="skill-cards-section">
 				<div className="skill-card-column">
-					<SkillsCard title="Front-End" skills={frontEndSkills} />
+					<AnimationOnScroll
+						animateIn="animate__fadeInLeftBig"
+						animateOnce={true}
+					>
+						<SkillsCard title="Front-End" skills={frontEndSkills} />
+					</AnimationOnScroll>
 				</div>
 
 				<div className="skill-card-column">
-					<SkillsCard title="Back-End" skills={backEndSkills} />
-					<SkillsCard title="Query Languages" skills={queryLanguageSkills} />
-					<SkillsCard title="Version Control" skills={versionControlSkills} />
+					<AnimationOnScroll
+						animateIn="animate__fadeInUpBig"
+						animateOnce={true}
+					>
+						<SkillsCard title="Back-End" skills={backEndSkills} />
+					</AnimationOnScroll>
+					<AnimationOnScroll
+						animateIn="animate__fadeInUpBig"
+						animateOnce={true}
+					>
+						<SkillsCard title="Query Languages" skills={queryLanguageSkills} />
+					</AnimationOnScroll>
+					<AnimationOnScroll
+						animateIn="animate__fadeInUpBig"
+						animateOnce={true}
+					>
+						<SkillsCard title="Version Control" skills={versionControlSkills} />
+					</AnimationOnScroll>
 				</div>
 				<div className="skill-card-column">
-					<SkillsCard title="Databases" skills={databaseSkills} />
-
-					<SkillsCard
-						title="Hosting Platforms"
-						skills={hostingPlatformSkills}
-					/>
+					<AnimationOnScroll
+						animateIn="animate__fadeInRightBig"
+						animateOnce={true}
+					>
+						<SkillsCard title="Databases" skills={databaseSkills} />
+					</AnimationOnScroll>
+					<AnimationOnScroll
+						animateIn="animate__fadeInRightBig"
+						animateOnce={true}
+					>
+						<SkillsCard
+							title="Hosting Platforms"
+							skills={hostingPlatformSkills}
+						/>
+					</AnimationOnScroll>
 				</div>
 			</section>
 		</section>
