@@ -48,7 +48,7 @@ export const TechSkills = () => {
 	});
 
 	return (
-		<section className="tech-skills-section wrapper">
+		<section className="tech-skills-section wrapper" id="tech-skills">
 			<h1 className="heading">TECH SKILLS</h1>
 			<section className="skill-cards-section">
 				<div className="skill-card-column">
@@ -61,22 +61,13 @@ export const TechSkills = () => {
 				</div>
 
 				<div className="skill-card-column">
-					<AnimationOnScroll
-						animateIn="animate__fadeInUpBig"
-						animateOnce={true}
-					>
+					<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
 						<SkillsCard title="Back-End" skills={backEndSkills} />
 					</AnimationOnScroll>
-					<AnimationOnScroll
-						animateIn="animate__fadeInUpBig"
-						animateOnce={true}
-					>
+					<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
 						<SkillsCard title="Query Languages" skills={queryLanguageSkills} />
 					</AnimationOnScroll>
-					<AnimationOnScroll
-						animateIn="animate__fadeInUpBig"
-						animateOnce={true}
-					>
+					<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
 						<SkillsCard title="Version Control" skills={versionControlSkills} />
 					</AnimationOnScroll>
 				</div>

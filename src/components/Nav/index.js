@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import {Link as ScrollLink} from "react-scroll";
 import "./Nav.css";
 
 export const Nav = () => {
@@ -25,18 +26,31 @@ export const Nav = () => {
 				>
 					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 						<li className="nav-item">
-							<a
+							<ScrollLink
+								to="about-me"
+								style={{cursor: "pointer"}}
 								className="nav-link active text-white"
-								aria-current="page"
-								href="#about-me"
 							>
 								ABOUT ME
-							</a>
+							</ScrollLink>
 						</li>
 						<li className="nav-item">
-							<Link to={"/"} className="nav-link active text-white">
+							<ScrollLink
+								to="tech-skills"
+								style={{cursor: "pointer"}}
+								className="nav-link active text-white"
+							>
+								TECH SKILLS
+							</ScrollLink>
+						</li>
+						<li className="nav-item">
+							<ScrollLink
+								to="group-projects"
+								style={{cursor: "pointer"}}
+								className="nav-link active text-white"
+							>
 								PROJECTS
-							</Link>
+							</ScrollLink>
 						</li>
 						<li className="nav-item">
 							<Link to={"/contact-me"} className="nav-link active text-white">
