@@ -1,15 +1,18 @@
+import {AnimationOnScroll} from "react-animation-on-scroll";
 import {groupProjectData} from "../../data/groupProjectData";
 import {GroupProjectCard} from "../GroupProjectCard";
 import "./GroupProjects.css";
 
 export const GroupProjects = () => {
 	const projects = groupProjectData.map((each, i) => (
-		<GroupProjectCard
-			key={i}
-			imagePath={each.imagePath}
-			imageAlt={each.imageAlt}
-			deployedLink={each.deployedLink}
-		/>
+		<AnimationOnScroll animateIn={each.animationEffect} animateOnce={true}>
+			<GroupProjectCard
+				key={i}
+				imagePath={each.imagePath}
+				imageAlt={each.imageAlt}
+				deployedLink={each.deployedLink}
+			/>
+		</AnimationOnScroll>
 	));
 
 	return (
