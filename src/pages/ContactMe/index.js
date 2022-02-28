@@ -67,21 +67,39 @@ export const ContactMe = () => {
 										</div>
 									</div>
 									<div className="contact-links">
-										<img
-											className="contact-link-icon"
-											src={gitHubIcon}
-											alt="github-icon"
-										/>
-										<img
-											className="contact-link-icon"
-											src={linkedinIcon}
-											alt="linkedin-icon"
-										/>
-										<img
-											className="contact-link-icon"
-											src={cvIcon}
-											alt="cv-icon"
-										/>
+										<a
+											href="https://github.com/DarionRichards"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img
+												className="contact-link-icon"
+												src={gitHubIcon}
+												alt="github-icon"
+											/>
+										</a>
+										<a
+											href="https://www.linkedin.com/in/darionrichards"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img
+												className="contact-link-icon"
+												src={linkedinIcon}
+												alt="linkedin-icon"
+											/>
+										</a>
+										<a
+											href="https://docs.google.com/document/d/1JayiuboL3Ie47uJichXcj69pYMMK5ORI/edit?usp=sharing&amp;ouid=103570595265825673215&amp;rtpof=true&amp;sd=true"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img
+												className="contact-link-icon"
+												src={cvIcon}
+												alt="cv-icon"
+											/>
+										</a>
 									</div>
 								</div>
 							)}
