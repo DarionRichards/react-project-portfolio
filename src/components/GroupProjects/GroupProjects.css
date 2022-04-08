@@ -13,12 +13,13 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	gap: 3rem;
+	width: 100%;
 }
 
 .main-project-card {
 	position: relative;
-	width: 10rem;
-	height: 10rem;
+	width: 100%;
+	height: 100%;
 	border-radius: 0.7rem;
 	box-shadow: 0 0 10px 5px rgb(119, 119, 119);
 }
@@ -40,17 +41,10 @@
 	transition: all 200ms ease-in;
 }
 
-@media all and (min-width: 320px) {
-	.main-project-card {
-		width: 20rem;
-		height: 20rem;
-	}
-}
-
 @media all and (min-width: 768px) {
 	.main-project-card {
-		width: 25rem;
-		height: 30rem;
+		max-width: 520px;
+		height: 650px;
 	}
 }
 
@@ -58,23 +52,9 @@
 	.main-project {
 		gap: 2rem;
 	}
-	.main-project-card {
-		width: 30rem;
-		height: 35rem;
-	}
 }
 
 @media all and (min-width: 2000px) {
-	.main-project {
-		gap: 1rem;
-	}
-	.main-project-card {
-		width: 30rem;
-		height: 35rem;
-	}
-}
-
-@media all and (min-width: 2500px) {
 	.main-project-card {
 		width: 30rem;
 		height: 35rem;
