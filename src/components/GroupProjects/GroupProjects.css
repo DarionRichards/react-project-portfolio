@@ -28,17 +28,18 @@
 	z-index: -1;
 	width: 100%;
 	height: 100%;
-	opacity: 1;
-	border-top-left-radius: 0.7rem;
-	border-top-right-radius: 0.7rem;
-	border-bottom-right-radius: 0.7rem;
-	border-bottom-left-radius: 0.7rem;
-	border-bottom: 1px solid black;
+	border-radius: 0.7rem;
 }
 
-.main-project-card img:hover {
-	opacity: 0.6;
-	transition: all 200ms ease-in;
+.main-project-card button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 1rem;
+	border: unset;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 10px 7px rgb(119, 119, 119);
 }
 
 @media all and (min-width: 768px) {

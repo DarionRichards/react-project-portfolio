@@ -9,6 +9,7 @@ export const groupProjectData = [
 		deployedLink: "https://darionrichards.github.io/readers-revival/",
 		gitHubRepo: "https://github.com/DarionRichards/readers-revival/tree/main",
 		animationEffect: "animate__fadeInLeft",
+		moreInfoButton: "orange",
 	},
 	{
 		imagePath: fitnessApp,
@@ -16,6 +17,7 @@ export const groupProjectData = [
 		deployedLink: "",
 		gitHubRepo: "https://github.com/DarionRichards/fitness-app",
 		animationEffect: "animate__fadeInRight",
+		moreInfoButton: "lightblue",
 	},
 	{
 		imagePath: forbiddin,
@@ -23,5 +25,6 @@ export const groupProjectData = [
 		deployedLink: "http://www.forbiddin.com",
 		gitHubRepo: "https://github.com/andradag/private-live-auction-client",
 		animationEffect: "animate__fadeInLeft",
+		moreInfoButton: "orange",
 	},
 ];

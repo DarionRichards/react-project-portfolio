@@ -11,6 +11,7 @@ export const GroupProjects = () => {
 				imagePath={each.imagePath}
 				imageAlt={each.imageAlt}
 				deployedLink={each.deployedLink}
+				buttonColour={each.moreInfoButton}
 			/>
 		</AnimationOnScroll>
 	));
