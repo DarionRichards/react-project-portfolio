@@ -1,6 +1,6 @@
 import Media from "react-media";
 import {ContactForm} from "../../components/ContactMeForm";
-import {Nav} from "../../components/Nav";
+import {NavContact} from "../../components/NavContact";
 import "./ContactMe.css";
 
 import locationIcon from "../../assets/icons/location.svg";
@@ -14,7 +14,7 @@ export const ContactMe = () => {
 	return (
 		<>
 			<header>
-				<Nav />
+				<NavContact />
 			</header>
 			<main>
 				<section className="wrapper">

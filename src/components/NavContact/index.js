@@ -1,8 +1,7 @@
 import {Link} from "react-router-dom";
-import {Link as ScrollLink} from "react-scroll";
-import "./Nav.css";
+// import "./Nav.css";
 
-export const Nav = () => {
+export const NavContact = () => {
 	return (
 		<nav className="navbar navbar-expand-lg nav-background navbar-dark">
 			<div className="container-fluid">
@@ -30,31 +29,13 @@ export const Nav = () => {
 				>
 					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 						<li className="nav-item">
-							<ScrollLink
-								to="about-me"
+							<Link
+								to="/"
 								style={{cursor: "pointer"}}
 								className="nav-link active text-white"
 							>
-								ABOUT ME
-							</ScrollLink>
-						</li>
-						<li className="nav-item">
-							<ScrollLink
-								to="tech-skills"
-								style={{cursor: "pointer"}}
-								className="nav-link active text-white"
-							>
-								TECH SKILLS
-							</ScrollLink>
-						</li>
-						<li className="nav-item">
-							<ScrollLink
-								to="group-projects"
-								style={{cursor: "pointer"}}
-								className="nav-link active text-white"
-							>
-								PROJECTS
-							</ScrollLink>
+								HOME
+							</Link>
 						</li>
 						<li className="nav-item">
 							<Link to={"/contact-me"} className="nav-link active text-white">
