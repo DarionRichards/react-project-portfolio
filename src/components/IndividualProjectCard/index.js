@@ -53,11 +53,17 @@ export const IndividualProjectCard = (props) => {
 					</div>
 					<div className="card-button-container">
 						{props.deployedLink && (
-							<a href={props.deployedLink} className="button">
+							<a
+								href={props.deployedLink}
+								className="button individual-projects-button"
+							>
 								Deployed App
 							</a>
 						)}
-						<a href={props.gitHubRepo} className="button">
+						<a
+							href={props.gitHubRepo}
+							className="button individual-projects-button"
+						>
 							GitHub Repository
 						</a>
 					</div>

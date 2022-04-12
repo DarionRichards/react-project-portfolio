@@ -6,7 +6,7 @@
 	border-top-right-radius: 1rem;
 	border-bottom-left-radius: 1rem;
 	border-bottom-right-radius: 1rem;
-	box-shadow: 0 0 20px 5px#1b0633;
+	box-shadow: 0 0 15px 5px #1b0633;
 	margin-bottom: 3rem;
 }
 
@@ -46,27 +46,15 @@
 	justify-content: space-evenly;
 }
 
-.button {
+.individual-projects-button {
+	color: white;
 	background-image: linear-gradient(
 		to right,
 		#da22ff 0%,
 		#9733ee 51%,
 		#da22ff 100%
 	);
-}
-
-.button {
 	margin: 10px;
-	padding: 15px 45px;
-	text-align: center;
-	text-transform: uppercase;
-	transition: 0.5s;
-	background-size: 200% auto;
-	color: white;
-	box-shadow: 0 0 20px #eee;
-	border-radius: 10px;
-	display: block;
-	transition: all 0.2s ease-in-out;
 }
 
 .button:hover {
