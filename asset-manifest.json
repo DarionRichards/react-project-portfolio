@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/react-project-portfolio/static/css/main.1099444f.css",
-    "main.js": "/react-project-portfolio/static/js/main.c4188a36.js",
+    "main.css": "/react-project-portfolio/static/css/main.2ed7bcca.css",
+    "main.js": "/react-project-portfolio/static/js/main.ceb3dddf.js",
+    "static/media/www.forbiddin.com.png": "/react-project-portfolio/static/media/www.forbiddin.com.2936f552e096758447ac.png",
     "static/media/readers-revival-screenshot.png": "/react-project-portfolio/static/media/readers-revival-screenshot.ec8c42299d3265b39ca1.png",
     "static/media/profile-img.png": "/react-project-portfolio/static/media/profile-img.593c9c414213ece2ebc9.png",
     "static/media/fitness-app.png": "/react-project-portfolio/static/media/fitness-app.082b76d42848c301685a.png",
@@ -37,11 +38,11 @@
     "static/media/material-ui.svg": "/react-project-portfolio/static/media/material-ui.456bfb02539777f812137c514d397868.svg",
     "static/media/apollo.svg": "/react-project-portfolio/static/media/apollo.b26bd489c167cf8847da1b19991545a1.svg",
     "static/media/github.svg": "/react-project-portfolio/static/media/github.4f33f29afb92d1a50180b6bb751f55dd.svg",
-    "main.1099444f.css.map": "/react-project-portfolio/static/css/main.1099444f.css.map",
-    "main.c4188a36.js.map": "/react-project-portfolio/static/js/main.c4188a36.js.map"
+    "main.2ed7bcca.css.map": "/react-project-portfolio/static/css/main.2ed7bcca.css.map",
+    "main.ceb3dddf.js.map": "/react-project-portfolio/static/js/main.ceb3dddf.js.map"
   },
   "entrypoints": [
-    "static/css/main.1099444f.css",
-    "static/js/main.c4188a36.js"
+    "static/css/main.2ed7bcca.css",
+    "static/js/main.ceb3dddf.js"
   ]
 }
