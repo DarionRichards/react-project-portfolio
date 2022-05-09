@@ -1,7 +1,7 @@
 import {AnimationOnScroll} from "react-animation-on-scroll";
 import "./ProfileCard.css";
 
-import profileImg from "../../assets/images/profile-img.png";
+import profileImg from "../../assets/images/profile-img.jpeg";
 import gitHubBlue from "../../assets/icons/github-blue.svg";
 import linkedIn from "../../assets/icons/linkedin.svg";
 import cvIcon from "../../assets/icons/cv.svg";

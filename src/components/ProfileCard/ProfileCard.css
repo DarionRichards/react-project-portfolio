@@ -36,7 +36,8 @@
 	border-radius: 100%;
 	margin-bottom: 1.5rem;
 	box-shadow: 0 0 10px 3px rgba(72, 149, 239, 1);
-	width: 60%;
+	width: 90%;
+	height: 220px;
 	transition: all 0.2s ease-in-out;
 }
 
