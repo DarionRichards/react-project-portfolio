@@ -24,10 +24,10 @@ export const AboutMeSection = () => {
 						completing a full stack development certification at the University
 						of Birmingham in 2022, whilst acquiring these qualifications I have
 						been working in a management role within the retail industry which
-						has also further enhanced my skills in multiple areas. The next
-						stage of my life is about pursuing and attaining a full time career
-						in the computing/ IT industry and envisage myself joining and
-						becoming part of a creative and productive team at a forward looking
+						has also improved my skills in multiple areas. The next stage of my
+						life is about pursuing and attaining a full time career in the
+						computing/ IT industry and envisage myself joining and becoming part
+						of a creative and productive team at a forward looking competetive
 						company within the industry.
 					</p>
 				</AnimationOnScroll>
