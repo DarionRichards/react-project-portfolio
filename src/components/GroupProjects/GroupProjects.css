@@ -1,0 +1,77 @@
+.group-project-section {
+	background: linear-gradient(
+		0deg,
+		rgba(177, 167, 166, 1) 0%,
+		rgba(211, 211, 211, 1) 50%,
+		rgba(245, 243, 244, 1) 100%
+	);
+}
+
+.main-project {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 3rem;
+	width: 100%;
+}
+
+.main-project-card {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.7rem;
+	box-shadow: 0 0 10px 5px rgb(119, 119, 119);
+}
+
+.main-project-card img {
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.7rem;
+}
+
+.main-project-card button {
+	position: absolute;
+	top: 50%;
+	right: 35%;
+	transform: translate(0%, 0%);
+	padding: 1rem;
+	border: unset;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 10px 7px rgb(119, 119, 119);
+}
+
+.modal-flex {
+	display: flex;
+}
+
+.modal-button {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+@media all and (min-width: 768px) {
+	.main-project-card {
+		max-width: 520px;
+		height: 650px;
+	}
+}
+
+@media all and (min-width: 991px) {
+	.main-project {
+		gap: 2rem;
+	}
+}
+
+@media all and (max-width: 1800px) {
+	.main-project {
+		flex-wrap: wrap;
+	}
+}
+
+@media all and (min-width: 2000px) {
+	.main-project-card {
+		width: 30rem;
+		height: 35rem;
+	}
+}

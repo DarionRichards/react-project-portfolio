@@ -1,0 +1,102 @@
+.about-title,
+.project-card-title,
+.project-card-text {
+	margin-bottom: 1rem;
+}
+
+.welcome-section {
+	margin-bottom: 4rem;
+}
+
+.welcome-section h1 {
+	letter-spacing: 2px;
+	padding-bottom: unset;
+	border-bottom: unset;
+	font-size: 30px;
+	font-weight: 400 !important;
+}
+
+.welcome-section span {
+	color: white;
+	font-weight: 600;
+}
+
+.about-me-section {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 2rem;
+	align-items: flex-end;
+	justify-content: space-around;
+	align-items: center;
+	background: linear-gradient(
+		0deg,
+		rgb(67, 97, 238, 1) 0%,
+		rgba(67, 97, 238, 1) 33%,
+		rgba(72, 149, 239, 1) 66%,
+		rgba(76, 201, 240, 1) 100%
+	);
+	width: 100%;
+}
+
+.about-me-section .heading {
+	margin-bottom: 2rem;
+}
+
+.about-text {
+	display: flex;
+	line-height: 1.5;
+}
+
+.tilt-element {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3rem 1rem;
+	background: #e9ecf3;
+	border-radius: 1rem;
+	box-shadow: 0 0 15px rgb(97, 97, 97);
+	gap: 1rem;
+	width: 250px;
+	height: fit-content;
+
+	transform-style: preserve-3d;
+}
+
+.inner-tilt-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+
+	transform: translateZ(100px);
+}
+
+@media all and (min-width: 768px) {
+	.tilt-element {
+		width: 325px;
+	}
+}
+
+@media all and (min-width: 1050px) {
+	.about-me-section {
+		flex-direction: row;
+	}
+	.tilt-element {
+		width: 375px;
+	}
+}
+
+@media all and (min-width: 1600px) {
+	.tilt-element {
+		width: 400px;
+		padding: 3rem 2rem;
+	}
+}
+
+@media all and (min-width: 2000px) {
+	.tilt-element {
+		padding: 4rem 3rem;
+	}
+}
